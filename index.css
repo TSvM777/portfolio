@@ -1,0 +1,105 @@
+body{
+    margin: 0px 300px;
+}
+header{
+    font-size: 30px;
+    font-style: italic;
+    height: 200px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: rgb(157, 190, 150);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 20px;
+}
+a:visited{
+    color:black;
+    text-decoration:underline 0px;
+}
+a{
+    color: black;
+}
+.about-me{
+    width: 150px;
+    height: 150px;
+    padding:25px;
+    border: 1px;
+    display: flex;
+    align-items: center;
+}
+.my-future{
+    width: 150px;
+    height: 150px;
+    padding:25px;
+    border: 1px;
+    display: flex;
+    align-items: center;
+}
+.communicate{
+    width: 250px;
+    height: 150px;
+    padding: 25px;
+    border: 1px;
+    display: flex;
+    align-items: center;
+    
+}
+.part{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.part1a{
+    display: inline-block;
+    margin-left: 150px;
+}
+.selfie{
+    height: 450px;
+    border-radius: 45%;
+}
+.part1b{
+    background: rgb(157, 190, 150);
+    display: inline-block;
+    height: 510px;
+    padding: 10px;
+    width: 500px;
+    margin-right: 100px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ol{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+.bender{
+    height: 470px;
+    display: inline-block;
+    margin-right: 200px;
+}
+footer{
+    display: flex;
+    margin-bottom: 0px;
+    background: rgb(157, 190, 150);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 200px;
+    justify-content: center;
+}
+.footer1{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot{
+    display: inline-block;
+}
+
